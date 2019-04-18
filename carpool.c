@@ -6,9 +6,10 @@ among the passengers and you. You want to write a program that calculates the co
 The program should read the number of passengers (an integer) and the cost of gas for the trip (a decimal number). 
 The program should then print the cost that you have to pay (a decimal number) with 2 digits after the decimal point.
  * 
- * 
+ *
  */
-// p variable = no. of passengers, g variable = gas.
+// p variable = no. of passengers, g variable = gas 
+
 #include <stdio.h>
 #include <math.h>
 
@@ -26,3 +27,5 @@ int main(void) {
         printf("You pay: %g\n", g);
     }
 }
+
+// A program made following Dartmouth's course 'C Programming: Language Foundations'. Logic conditions and if-else statements.
