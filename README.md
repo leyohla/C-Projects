@@ -1,3 +1,3 @@
 # C Language
 
-Documentation of some of the projects I have been creating using the C Language. In accordance to Harvard's CS50 course, I will also be documenting the source code produced by following along with the problem sets that have been recommended in the course.
+Documentation of the source code I have produced from various problem sets taken from courses such as CS50 from Harvard, Dartmouth's C Programming: Language Foundations, as well as my own personal project ideas. 
