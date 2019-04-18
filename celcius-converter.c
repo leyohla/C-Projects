@@ -1,5 +1,5 @@
 /* Write a program that converts Celcius to Fahrenheit.
-This program was written using the CS50 sandbox.
+A personal program, written using the CS50 sandbox IDE.
 */
 
 #include <cs50.h>
