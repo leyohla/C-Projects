@@ -24,9 +24,10 @@ int main(void)
     if (t > 0)
     {
         printf("The total price for your stay is: $%d\n", total);
+            if (total >= 53)
+        {
+            printf("The total price for your stay is $53\n");
+        }
     }
-    if (total >= 53)
-    {
-        printf("The total price for your stay is $53\n");
-    }
+ 
 }
