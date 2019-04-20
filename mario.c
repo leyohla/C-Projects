@@ -12,7 +12,7 @@ while (true) {
     }
     
    /* for (i=1; i<8; i++) {
-        printf("#"); */
+        printf("#"); */ }
   
     {   
     if (i <= 8 && i >= 1) {
