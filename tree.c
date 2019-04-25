@@ -1,3 +1,7 @@
+/*
+Problem set: Write a program that will give you the name of a specific tree based on its characteristics.
+*/
+
 #include <stdio.h>
 int main() {
     int height;
