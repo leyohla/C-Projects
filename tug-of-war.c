@@ -17,31 +17,29 @@ You are guaranteed that the two teams will not have the same total weight.
  
 #include <stdio.h>
 #include <math.h>
-int main()
-{
-     int team1 = 0, team2 = 0, sum = 0, sum1 = 0, sum2 = 0, k = 0; //variables
-     int j = 0; //variable for the for loop
-     for (j = 1; j <= 1; j++) { //loop
+int main() {
+    int sum1 = 0, sum2 = 0, k = 0, j = 0; 
+    int tmp;
 
-            printf("How many team members are there? \n");
-                scanf("%i", &k); //first input, stores in k memory. Allows us to read from the terminal input
+    printf("How many team members are there? \n");
+    scanf("%i", &k);
 
-                scanf("%d%d%d\n", &team2, &team1, &team2); //next inputs of alternating team player weights
-
-                scanf("%d%d%d%d\n", &team1, &team2, &team1, &team2); //next inputs of team player weights
+    for (j=0; j<(k=4); j++) {
+        scanf("%d", &tmp);
+        sum1+=tmp;
+        scanf("%d", &tmp); 
+        sum2+=tmp;
+        
     }
-             sum1 = team1 + team1 + team1 + team1;
-             sum2 = team2 + team2 + team2 + team2;
-             sum = sum1 + sum2;
-             printf("Total weight for team 1: %d\n", sum1);
-             printf("Total weight for team 2: %d\n", sum2);
-             printf("Total weight: %d\n", sum);
+    printf("Total weight for team 1: %d\n", sum1);
+    printf("Total weight for team 2: %d\n", sum2);
+    printf("Total weight: %d\n", sum1+sum2);
 
     if (sum1 > sum2) {
         printf("Team 1 has the advantage!\nTotal weight for team 1: %d\n", sum1);
     }
     else {
-            printf("Team 2 has the advantage!\nTotal weight for team 2: %d\n", sum2);
-        }
+        printf("Team 2 has the advantage!\nTotal weight for team 2: %d\n", sum2);
+    }
     return(0); 
-} 
+}
