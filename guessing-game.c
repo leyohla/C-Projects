@@ -17,7 +17,7 @@ int main() {
         scanf("%d", &n);
         if (n == random) {
             printf("you've guessed correctly!\n");
-            break;
+            return 0;
             //exit(1);
         }
         else if (n < random){
