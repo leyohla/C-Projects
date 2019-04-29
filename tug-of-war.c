@@ -25,8 +25,10 @@ int main() {
     scanf("%i", &k);
 
     for (j=0; j<(k=4); j++) {
+        printf("Enter the weight of a player on team 1\n");
         scanf("%d", &tmp);
         sum1+=tmp;
+        printf("Enter the weight of a player on team 2\n");
         scanf("%d", &tmp); 
         sum2+=tmp;
         
