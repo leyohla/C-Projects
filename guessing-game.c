@@ -16,19 +16,17 @@ int main() {
         printf("Guess the random number\n");
         scanf("%d", &n);
         if (n == random) {
-            printf("you've guessed correctly\n");
+            printf("you've guessed correctly!\n");
             break;
             //exit(1);
         }
         else if (n < random){
-            printf("the number is too low\n");
+            printf("the number is too low, try again\n");
         }
         else {
-            printf("the number is too high\n");
+            printf("the number is too high, try again\n");
         }
     }
-    if(n != random) {
-        printf("wrong, you've failed.\n");
-       
-    }
+    printf("wrong, you've failed!\n");
+    return 1;
 }
