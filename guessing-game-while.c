@@ -12,8 +12,6 @@ int main(void) {
     int loopcount; //this will keep track of the number of guesses the user has made.
     int total = 0;
     
-    printf("Enter a number to read. rand number is: %d\n", r);
-    
     printf("Welcome to the guessing game. Enter your first guess.\n");
     scanf("%d", &guess);
     loopcount = 0;
